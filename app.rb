@@ -9,6 +9,6 @@ end
 
   get '.square/:number' do
     @square_this_number = params[:number].to_i ** 2
-    "#{@square_this_number}"
+    "#{@square_this_number}".to_s
 end
 end
