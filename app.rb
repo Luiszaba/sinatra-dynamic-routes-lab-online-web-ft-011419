@@ -25,7 +25,10 @@ class App < Sinatra::Base
   end  
   
   get '/say/:word1/:word3:word4/:word5' do 
+    #@word1 = params[:word1]
     
+    say.each do |k,v|
+      
   
   
   
@@ -33,5 +36,6 @@ class App < Sinatra::Base
   
   
   
-  
+end
+end
 end
