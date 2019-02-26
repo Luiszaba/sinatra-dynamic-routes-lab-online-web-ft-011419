@@ -24,11 +24,15 @@ class App < Sinatra::Base
     return_value
   end  
   
-  #get '/say/:word1/:word3:word4/:word5' do 
-   # @word1 = params[:word1]
-    #@word2 = params[:word2]
-    #@word3 = params[:word3]
-    #end
+  get '/say/:word1/:word3:word4/:word5' do 
+    word1 = params[:word1]
+    word2 = params[:word2]
+    word3 = params[:word3]
+    word4 = params[:word4]
+    word5 = params[:word5]
+    
+    "#{word5} #{word2} #{word3} #{word4} #{word5}"
+    end
     
   
   
