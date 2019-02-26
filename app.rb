@@ -40,5 +40,6 @@ class App < Sinatra::Base
     add = num1 +num2
   
   
-  
 end
+end
+
