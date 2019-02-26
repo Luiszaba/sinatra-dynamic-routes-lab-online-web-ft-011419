@@ -13,15 +13,15 @@ class App < Sinatra::Base
   end
   
   get '/say/:number/:phrase' do
-    @return_value = ""
+    return_value = ""
     
-    @user_number = params[:number]
-    @user_phrase = params[:phrase]
+    user_number = params[:number]
+    user_phrase = params[:phrase]
     
-    @user_number.to_i.times do 
-      @return_value += @user_phrase
+    user_number.to_i.times do 
+      return_value += user_phrase
     end
-    @return_value
+    return_value
   end  
   
   get '/say/:word1/:word3:word4/:word5' do 
