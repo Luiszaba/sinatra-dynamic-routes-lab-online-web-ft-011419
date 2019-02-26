@@ -23,4 +23,14 @@ class App < Sinatra::Base
     end
     @return_value
   end  
+  
+  get '/say/:word1/:word3'
+  
+  
+  
+  
+  
+  
+  
+  
 end
