@@ -28,7 +28,11 @@ class App < Sinatra::Base
     #@word1 = params[:word1]
     
     say.each do |k,v|
-      
+      @k = k
+      @v = v
+      "@k" + "@v"
+    end
+    
   
   
   
