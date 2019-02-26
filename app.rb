@@ -53,5 +53,3 @@ class App < Sinatra::Base
     solution.to_s
   end
 end
-end
-end
