@@ -12,3 +12,4 @@ end
     "#{@square_this_number}"
 end
 end
+end
