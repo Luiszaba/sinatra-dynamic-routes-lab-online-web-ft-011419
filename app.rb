@@ -7,7 +7,7 @@ class App < Sinatra::Base
     @user_name = params[:name].reverse
 end
 
-  get '.square/:number' do
+  get '/square/:number' do
     @square_this_number = params[:number].to_i ** 2
     @square_this_number.to_s
 end
