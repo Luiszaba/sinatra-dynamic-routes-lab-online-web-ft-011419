@@ -37,7 +37,7 @@ class App < Sinatra::Base
     user_input = ""
     num1 = params[:number1]
     num2 = params[:number2]
-    if user_input = add
+    if add
       num1 + num2
       elsif user_input = subtract
       num1 - num2
