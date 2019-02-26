@@ -17,7 +17,7 @@ class App < Sinatra::Base
     @accepted_number = params[:number]
     @user_phrase = params[:phrase]
     @accepted_number.to_i.times do 
-      @return_value += {user_phrase}
-  
+      @return_value += "#{user_phrase}"
+    end
   end  
 end
