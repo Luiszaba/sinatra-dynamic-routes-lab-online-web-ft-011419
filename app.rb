@@ -37,19 +37,7 @@ class App < Sinatra::Base
     user_input = ""
     num1 = params[:number1]
     num2 = params[:number2]
-    if add
-      num1 + num2
-      elsif user_input = subtract
-      num1 - num2
-      elsif user_input = multiply
-      num1 * num2
-    else user_input = divide
-      num1/num2
-    end
-  end
-  
-  
-  
+    add = num1 +num2
   
   
   
