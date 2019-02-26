@@ -24,7 +24,7 @@ class App < Sinatra::Base
     @return_value
   end  
   
-  get '/say/:word1/:word3'
+  get '/say/:word1/:word3:word4/:word5' do 
   
   
   
