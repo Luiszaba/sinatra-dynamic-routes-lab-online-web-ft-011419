@@ -30,7 +30,7 @@ class App < Sinatra::Base
     say.each do |k,v|
       @k = k
       @v = v
-      "@k" + "@v"
+      "@k" + "@v."
     end
     
   
